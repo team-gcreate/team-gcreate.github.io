@@ -1,0 +1,165 @@
+{
+base: {
+	gravity: {
+		y: -9.8
+	}
+	devicesWidth: 1080
+	devicesHeight: 1920
+	viewpointWidth: 30
+	position: {}
+}
+bodyList: [
+	{
+		def: {
+			name: B_BACK
+			position_x: 12.037329
+			position_y: 24.119852
+			type: MyStaticBody
+			texture: back
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 1.5
+				halfHeight: 1.5
+			}
+		]
+	}
+	{
+		def: {
+			name: B_TITLE
+			position_x: -6.1014285
+			position_y: 24.144958
+			type: MyStaticBody
+			text: My Division
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 7.550705
+				halfHeight: 1.5
+			}
+		]
+	}
+	{
+		def: {
+			name: B_PANEL
+			position_y: 0.039436817
+			type: MyStaticBody
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 14
+				halfHeight: 22
+			}
+		]
+	}
+	{
+		def: {
+			name: B_SHARE
+			position_x: 2.774804
+			position_y: 24.119852
+			type: MyStaticBody
+			texture: share
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 1.5
+				halfHeight: 1.5
+			}
+		]
+	}
+	{
+		def: {
+			name: B_ADD
+			position_x: 8.9498205
+			position_y: 24.119852
+			type: MyStaticBody
+			texture: add
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 1.5
+				halfHeight: 1.5
+			}
+		]
+	}
+	{
+		def: {
+			name: B_INFO
+			position_x: 0.03756523
+			position_y: -24.44056
+			type: MyStaticBody
+			textAlign: Align_center
+			text: Retrieve data ..
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 14.037565
+				halfHeight: 1.5
+			}
+		]
+	}
+	{
+		def: {
+			name: Rec.B1452776769710
+			position_x: 8
+			position_y: -30.508806
+			type: MyStaticBody
+			texture: delete
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 2
+				halfHeight: 2
+			}
+		]
+	}
+	{
+		def: {
+			name: B1452776794994
+			position_x: 12
+			position_y: -30.508806
+			type: MyStaticBody
+			texture: share
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 2
+				halfHeight: 2
+			}
+		]
+	}
+	{
+		def: {
+			name: B_SEND
+			position_x: 5.8623123
+			position_y: 24.119852
+			type: MyStaticBody
+			texture: send
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 1.5
+				halfHeight: 1.5
+			}
+		]
+	}
+]
+jointList: []
+}
