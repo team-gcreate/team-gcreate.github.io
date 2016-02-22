@@ -1,0 +1,138 @@
+{
+base: {
+	gravity: {
+		y: -9.8
+	}
+	devicesWidth: 1080
+	devicesHeight: 1920
+	viewpointWidth: 1080
+	position: {}
+}
+bodyList: [
+	{
+		def: {
+			name: Rec.B1432130644013
+			position_y: 400
+			type: MyStaticBody
+			texture: game_icon
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 370
+				halfHeight: 370
+			}
+		]
+	}
+	{
+		def: {
+			name: B_REMOVE_AD
+			position_x: 0.15469313
+			position_y: -427.4122
+			type: MyStaticBody
+			texture: rec
+			fontId: ""
+			fontColor: {
+				r: 1
+				g: 1
+				b: 1
+			}
+			textAlign: Align_center
+			text: Remove Ad
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				pos: {}
+				texture: ""
+				halfWidth: 400
+				halfHeight: 70
+			}
+		]
+	}
+	{
+		def: {
+			name: B_HOME
+			position_x: 0.9578247
+			position_y: -773.5551
+			type: MyStaticBody
+			texture: home
+			textAlign: Align_right
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 90
+				halfHeight: 90
+			}
+		]
+	}
+	{
+		def: {
+			name: B_RESTORE
+			position_x: 0.15469313
+			position_y: -576.5345
+			type: MyStaticBody
+			texture: rec
+			fontId: ""
+			fontColor: {
+				r: 1
+				g: 1
+				b: 1
+			}
+			textAlign: Align_center
+			text: Restore Purchase
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				pos: {}
+				halfWidth: 400
+				halfHeight: 70
+			}
+		]
+	}
+	{
+		def: {
+			name: B_RATING
+			position_x: 0.15469313
+			position_y: -278.28992
+			type: MyStaticBody
+			texture: rec
+			fontId: ""
+			fontColor: {
+				r: 1
+				g: 1
+				b: 1
+			}
+			textAlign: Align_center
+			text: Rating Me
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				pos: {}
+				halfWidth: 400
+				halfHeight: 70
+			}
+		]
+	}
+	{
+		def: {
+			name: B_WAITING
+			position_x: -2.6087646
+			position_y: -99.13043
+			type: MyStaticBody
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 67.82608
+				halfHeight: 62.608734
+			}
+		]
+	}
+]
+jointList: []
+}
