@@ -1,0 +1,114 @@
+{
+base: {
+	gravity: {
+		y: -9.8
+	}
+	devicesWidth: 1080
+	devicesHeight: 1920
+	viewpointWidth: 30
+	position: {}
+}
+bodyList: [
+	{
+		def: {
+			name: CALC_PANEL
+			type: MyStaticBody
+			texture: ""
+			rotateWithVelocity: true
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 12
+				halfHeight: 20.95189
+			}
+		]
+	}
+	{
+		def: {
+			name: B_HOME
+			position_x: -12.167603
+			position_y: 23.932667
+			type: MyStaticBody
+			texture: home
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 2
+				halfHeight: 2
+			}
+		]
+	}
+	{
+		def: {
+			name: CALC_SELECT
+			position_x: -8.519335
+			position_y: -11.876617
+			type: MyStaticBody
+			texture: ""
+			rotateWithVelocity: true
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 5
+				halfHeight: 9
+			}
+		]
+	}
+	{
+		def: {
+			name: B_HAND
+			active: false
+			position_x: -0.6412661
+			position_y: -19.70615
+			type: MyStaticBody
+			texture: hand
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 6
+				halfHeight: 6
+			}
+		]
+	}
+	{
+		def: {
+			name: B_OK
+			position_x: -0.5673063
+			position_y: -38.0347
+			type: MyStaticBody
+			texture: ok
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 3
+				halfHeight: 3
+			}
+		]
+	}
+	{
+		def: {
+			name: B_SCORE
+			position_x: -1.27644
+			position_y: -32.78149
+			type: MyStaticBody
+			textAlign: Align_center
+			text: 0
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 6
+				halfHeight: 1
+			}
+		]
+	}
+]
+jointList: []
+}

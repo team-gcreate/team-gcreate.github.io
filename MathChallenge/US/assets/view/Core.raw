@@ -1,0 +1,148 @@
+{
+base: {
+	gravity: {
+		y: -9.8
+	}
+	devicesWidth: 1080
+	devicesHeight: 1920
+	viewpointWidth: 1080
+	map: ""
+	position: {}
+}
+bodyList: [
+	{
+		def: {
+			name: B_L1
+			position_y: 603.43195
+			type: MyStaticBody
+			texture: easy
+			textAlign: Align_center
+			text: Easy
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 400
+				halfHeight: 80
+			}
+		]
+	}
+	{
+		def: {
+			name: B_L2
+			position_y: 239.64273
+			type: MyStaticBody
+			texture: medium
+			textAlign: Align_center
+			text: Medium
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 400
+				halfHeight: 80
+			}
+		]
+	}
+	{
+		def: {
+			name: B_L3
+			position_y: -124.146484
+			type: MyStaticBody
+			texture: hard
+			textAlign: Align_center
+			text: Hard
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 400
+				halfHeight: 80
+			}
+		]
+	}
+	{
+		def: {
+			name: B_HELP
+			position_x: 289.56516
+			position_y: -674.4596
+			type: MyStaticBody
+			texture: help
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 100
+				halfHeight: 100
+			}
+		]
+	}
+	{
+		def: {
+			name: B_CREATE
+			position_x: -292.174
+			position_y: -674.4596
+			type: MyStaticBody
+			texture: create
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 100
+				halfHeight: 100
+			}
+		]
+	}
+	{
+		def: {
+			name: B_L4
+			position_x: 548.5319
+			position_y: -1110.9221
+			type: MyStaticBody
+			texture: rec
+			textAlign: Align_center
+			text: Custom
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 400
+				halfHeight: 80
+			}
+		]
+	}
+	{
+		def: {
+			name: B_TEMP
+			position_x: -7.8261223
+			position_y: -1097.9932
+			type: MyStaticBody
+			texture: create
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 100
+				halfHeight: 100
+			}
+		]
+	}
+	{
+		def: {
+			name: B_INFO
+			position_x: -216.13959
+			position_y: -1092.135
+			type: MyStaticBody
+			texture: info
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 30
+				halfHeight: 30
+			}
+		]
+	}
+]
+jointList: []
+}

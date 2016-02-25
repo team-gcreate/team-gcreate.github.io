@@ -1,0 +1,83 @@
+{
+base: {
+	gravity: {
+		y: -9.8
+	}
+	devicesWidth: 1080
+	devicesHeight: 1920
+	viewpointWidth: 30
+	position: {}
+}
+bodyList: [
+	{
+		def: {
+			name: B_BG
+			active: false
+			position_x: 0.30853987
+			position_y: 4.0991707
+			type: MyStaticBody
+			texture: rec
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 11.23967
+				halfHeight: 7.22865
+			}
+		]
+	}
+	{
+		def: {
+			name: B_NO
+			position_x: -5.06887
+			position_y: 0.2203846
+			type: MyStaticBody
+			texture: rec_d
+			textAlign: Align_center
+			text: No
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 4.2314053
+				halfHeight: 1
+			}
+		]
+	}
+	{
+		def: {
+			name: B_YES
+			position_x: 5.5096416
+			position_y: 0.2203846
+			type: MyStaticBody
+			texture: rec_d
+			textAlign: Align_center
+			text: Yes
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 4.2314053
+				halfHeight: 1
+			}
+		]
+	}
+	{
+		def: {
+			name: B_INFO
+			position_x: 0.6253643
+			position_y: 7.07143
+			type: MyStaticBody
+			text: info
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 9.620991
+				halfHeight: 1.2
+			}
+		]
+	}
+]
+jointList: []
+}
