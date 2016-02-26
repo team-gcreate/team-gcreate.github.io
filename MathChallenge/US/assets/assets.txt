@@ -23,7 +23,7 @@ i:font1/an1.png:41747:image/png
 i:font1/an2.png:18941:image/png
 i:gcreate.png:2625:image/png
 i:green_box.png:300:image/png
-i:hand.png:23301:image/png
+i:hand.png:34140:image/png
 i:hard.png:1819:image/png
 i:help.png:5504:image/png
 i:help_count.png:938:image/png
@@ -47,11 +47,12 @@ i:up_arrow.png:1889:image/png
 d:view:0:application/unknown
 b:view/CalcCreate.raw:2774:application/unknown
 b:view/CalcHelp.raw:1532:application/unknown
-b:view/CalcMain.raw:3409:application/unknown
+b:view/CalcMain.raw:3700:application/unknown
 b:view/ConfirmDialog.raw:1130:application/unknown
 b:view/Core.raw:2002:application/unknown
 b:view/CustomCalc.raw:3531:application/unknown
 b:view/CustomDivision.raw:2294:application/unknown
+b:view/Info.raw:1294:application/unknown
 b:view/InfoDialog.raw:961:application/unknown
 b:view/LeadBoard.raw:2370:application/unknown
 b:view/MyDivision.raw:2291:application/unknown

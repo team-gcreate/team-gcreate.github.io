@@ -210,7 +210,8 @@ bodyList: [
 	{
 		def: {
 			name: B_HELP
-			position_y: -23.531101
+			position_x: -12.167603
+			position_y: 5.3094735
 			type: MyStaticBody
 			texture: help
 			textAlign: Align_center
@@ -227,8 +228,8 @@ bodyList: [
 	{
 		def: {
 			name: B_HELPCOUNT
-			position_x: 3.6914878
-			position_y: -23.594337
+			position_x: -12.167603
+			position_y: 1.985373
 			type: MyStaticBody
 			texture: help_count
 			fontColor: {
@@ -242,6 +243,24 @@ bodyList: [
 				class: MyRectangleShape
 				halfWidth: 1.5
 				halfHeight: 1
+			}
+		]
+	}
+	{
+		def: {
+			name: B_INDICATOR
+			position_x: -12.167601
+			position_y: -0.63254875
+			type: MyStaticBody
+			texture: hand
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 1.5
+				halfHeight: 1.5
 			}
 		]
 	}
