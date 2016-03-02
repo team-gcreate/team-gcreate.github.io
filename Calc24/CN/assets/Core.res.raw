@@ -1,0 +1,198 @@
+{
+regionMetaList: [
+	{
+		id: bg
+		fileName: bg.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: circle
+		fileName: circle.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: circle_h
+		fileName: circle_h.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: step_item
+		fileName: step_item.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: add
+		fileName: add.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: subtract
+		fileName: subtract.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: multiply
+		fileName: multiply.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: divide
+		fileName: divide.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: left
+		fileName: left.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: right
+		fileName: right.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: delete
+		fileName: delete.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: home
+		fileName: home.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: help
+		fileName: help.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: help_h
+		fileName: help_h.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: rec
+		fileName: rec.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: game_icon
+		fileName: game_icon.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: eye
+		fileName: eye.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: eye_h
+		fileName: eye_h.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: dialog_bg
+		fileName: dialog_bg.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: help_count
+		fileName: help_count.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: info
+		fileName: information.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: rec_h
+		fileName: rec_h.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: rec_d
+		fileName: rec_d.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: logo
+		fileName: Logo.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: help_count_h
+		fileName: help_count_h.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: aim
+		fileName: circle_h.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: green
+		fileName: green_box.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: blue
+		fileName: blue_rec.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: leaderboard
+		fileName: leaderboard.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: sound
+		fileName: sound.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: sound_mute
+		fileName: sound_mute.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: hand
+		fileName: hand.png
+		frameRows: 1
+		frameColumns: 1
+	}
+]
+fontMetaList: []
+particleMetaList: []
+}

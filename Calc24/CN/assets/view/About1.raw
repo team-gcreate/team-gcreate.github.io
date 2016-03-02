@@ -1,0 +1,32 @@
+{
+base: {
+	gravity: {
+		y: -9.8
+	}
+	devicesWidth: 1080
+	devicesHeight: 1920
+	viewpointWidth: 1080
+	position: {}
+}
+bodyList: [
+	{
+		def: {
+			name: B_HOME
+			position_x: 0.9578247
+			position_y: -773.5551
+			type: MyStaticBody
+			texture: home
+			textAlign: Align_right
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 90
+				halfHeight: 90
+			}
+		]
+	}
+]
+jointList: []
+}

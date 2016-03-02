@@ -1,0 +1,92 @@
+{
+base: {
+	gravity: {
+		y: -9.8
+	}
+	devicesWidth: 1080
+	devicesHeight: 1920
+	viewpointWidth: 30
+	position: {
+		y: -5
+	}
+}
+bodyList: [
+	{
+		def: {
+			name: B143236410884711
+			position_x: 0.094955504
+			position_y: 1.2681155
+			type: MyStaticBody
+			texture: bg
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 13.6731615
+				halfHeight: 9.456523
+			}
+		]
+	}
+	{
+		def: {
+			name: B1432364108847
+			position_x: -11.369373
+			position_y: 8.085546
+			type: MyStaticBody
+			texture: game_icon
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 1.3215344
+				halfHeight: 1.3687305
+			}
+		]
+	}
+	{
+		def: {
+			name: B_OK
+			position_x: 7.675858
+			position_y: -6.560238
+			type: MyStaticBody
+			texture: rec
+			fontColor: {
+				r: 0.2
+				g: 1
+				b: 1
+			}
+			textAlign: Align_center
+			text: OK
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 4.3902445
+				halfHeight: 0.97826064
+			}
+		]
+	}
+	{
+		def: {
+			name: T_HELP
+			position_x: -0.10295004
+			position_y: 1.304347
+			type: MyStaticBody
+			fontColor: {
+				r: 1
+				g: 1
+				b: 1
+			}
+			text: "Given 4 numbers between \\n1-13,use + - * / to calculate \\n24."
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 12.65244
+				halfHeight: 4.4202895
+			}
+		]
+	}
+]
+jointList: []
+}
