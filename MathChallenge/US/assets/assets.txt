@@ -23,7 +23,7 @@ i:font1/an1.png:41747:image/png
 i:font1/an2.png:18941:image/png
 i:gcreate.png:2625:image/png
 i:green_box.png:300:image/png
-i:hand.png:34140:image/png
+i:hand.png:25539:image/png
 i:hard.png:1819:image/png
 i:help.png:5504:image/png
 i:help_count.png:938:image/png
