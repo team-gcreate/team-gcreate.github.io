@@ -13,7 +13,7 @@ bodyList: [
 		def: {
 			name: B_HOME
 			position_x: -11.700293
-			position_y: 12.922905
+			position_y: 20.224491
 			type: MyStaticBody
 			texture: home
 			textAlign: Align_right
@@ -46,7 +46,7 @@ bodyList: [
 		def: {
 			name: B_EASY
 			position_x: -11.710806
-			position_y: 9.926223
+			position_y: 10.3389225
 			type: MyStaticBody
 			texture: easy
 			fontColor: {
@@ -69,7 +69,7 @@ bodyList: [
 		def: {
 			name: B_MEDIUM
 			position_x: -11.663487
-			position_y: 8.042444
+			position_y: 8.455144
 			type: MyStaticBody
 			texture: medium
 			textAlign: Align_center
@@ -87,7 +87,7 @@ bodyList: [
 		def: {
 			name: B_HARD
 			position_x: -11.663487
-			position_y: 6.1586657
+			position_y: 6.5713654
 			type: MyStaticBody
 			texture: hard
 			textAlign: Align_center
@@ -105,7 +105,7 @@ bodyList: [
 		def: {
 			name: B_UNDO
 			position_x: -11.663487
-			position_y: 1.9374962
+			position_y: 2.350194
 			type: MyStaticBody
 			texture: rec_h
 			textAlign: Align_center
@@ -181,10 +181,10 @@ bodyList: [
 	{
 		def: {
 			name: B_OK
-			position_x: -11.454957
-			position_y: -8.397415
+			position_x: -12.325005
+			position_y: -20.48141
 			type: MyStaticBody
-			texture: rec_h
+			texture: next
 			textAlign: Align_center
 			text: ""
 		}
@@ -193,6 +193,63 @@ bodyList: [
 				class: MyRectangleShape
 				halfWidth: 2.5
 				halfHeight: 2.5
+			}
+		]
+	}
+	{
+		def: {
+			name: B_HELPCOUNT
+			position_x: -11.742067
+			position_y: -1.384621
+			type: MyStaticBody
+			texture: help_count
+			fontColor: {
+				b: 1
+			}
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 1
+				halfHeight: 0.5
+			}
+		]
+	}
+	{
+		def: {
+			name: B_INDICATOR
+			position_x: -11.793212
+			position_y: -2.6727364
+			type: MyStaticBody
+			texture: hand
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 0.5
+				halfHeight: 0.5
+			}
+		]
+	}
+	{
+		def: {
+			name: B_HELP
+			position_x: -11.742067
+			position_y: 0.24344906
+			type: MyStaticBody
+			texture: help
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 1
+				halfHeight: 1
 			}
 		]
 	}

@@ -1,38 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Suduku</title>
+<title>Suduku Game</title>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <link href="styles.css" rel="stylesheet" type="text/css">
 <script src="soundmanager2-setup.js"></script>
 <script src="soundmanager2-jsmin.js"></script>
 <style>
-#header {
+#header.ad {
 	background-color: white;
 	height: 110px;
 	width: 900px;
 	color: black;
 	text-align: center;
 	padding: 0px;
-	border: 1px solid #F00
+	border: 0px solid #F00
+}
+
+#left.ad {
+	background-color: white;
+	height: 635px;
+	width: 300px;
+	padding: 0px;
+	border: 0px solid #F00
+}
+
+#header.noad {
+	background-color: white;
+	height: 10px;
+	width: 900px;
+	color: black;
+	text-align: center;
+	padding: 0px;
+	border: 0px solid #F00
+}
+
+#left.noad {
+	background-color: white;
+	height: 635px;
+	width: 10px;
+	padding: 0px;
+	border: 0px solid #F00
+}
+
+#header {
+	background-color: white;
+	height: 10px;
+	width: 900px;
+	color: black;
+	text-align: center;
+	padding: 0px;
+	border: 0px solid #F00
 }
 
 #left {
-	line-height: 30px;
 	background-color: white;
-	height: 600px;
-	width: 300px;
-	float: left;
+	height: 635px;
+	width: 10px;
 	padding: 0px;
-	border: 1px solid #F00
+	border: 0px solid #F00
 }
 
 #embed-html {
 	width: 600px;
-	height: 600px;
-	float: left;
+	height: 635px;
 	padding: 0px;
-	border: 1px solid #F00
+	border: 0px solid #F00
 }
 
 #fb-root {
@@ -43,24 +76,33 @@
 	clear: both;
 	text-align: center;
 	padding: 0px;
-	border: 1px solid #F00
+	border: 0px solid #F00
 }
 </style>
 </head>
-<body>
-
+<body
+	style="margin: 0; padding: 0; border: 0; background-color: #FFFFFF">
 	<div id="header">
-		<h1>Top ADS</h1>
+		<h1>
+			<br>
+		</h1>
 	</div>
+	<table>
+		<tr>
+			<td>
+				<div id="left">
+					<br>
+				</div>
+			</td>
 
-	<div id="left">
-		Left ADS<br>
-	</div>
-
-	<div align="center" id="embed-html" style="background-color: white;"></div>
-	<script type="text/javascript" src="html/html.nocache.js"></script>
-
+			<td>
+				<div align="center" id="embed-html" style="background-color: white;"></div>
+			</td>
+		</tr>
+		<script type="text/javascript" src="html/html.nocache.js"></script>
+	</table>
 </body>
+
 
 <div id="fb-root">
 	<script src="fb_sdk.js"></script>
@@ -68,7 +110,6 @@
 </div>
 
 <script>
-			
               function handleMouseDown(evt) {
                 evt.preventDefault();
                 evt.stopPropagation();
@@ -83,7 +124,7 @@
               document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
               document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
               
-	</script>
-
+</script>
 </html>
+
 

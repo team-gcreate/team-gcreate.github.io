@@ -5,7 +5,7 @@ i:back.png:5444:image/png
 i:blackBG.png:264854:image/png
 i:blue_rec.png:299:image/png
 i:close.png:672:image/png
-b:Core.res.raw:2473:application/unknown
+b:Core.res.raw:2556:application/unknown
 i:create.png:4234:image/png
 t:defaultFont.fnt:11535:application/unknown
 i:defaultFont.png:35866:image/png
@@ -22,12 +22,14 @@ t:font1/an.fnt:11644:application/unknown
 i:font1/an.png:28361:image/png
 i:font1/an1.png:41747:image/png
 i:font1/an2.png:18941:image/png
-i:gcreate.png:2625:image/png
+i:gcreate.png:4733:image/png
+b:gcreate.png.bak:2625:application/unknown
 i:gray.png:3625:image/png
 i:green_box.png:300:image/png
 i:hand.png:23301:image/png
 i:hard.png:1819:image/png
 i:help.png:5504:image/png
+i:help_count.png:938:image/png
 i:home.png:5881:image/png
 i:information.png:5076:image/png
 i:leaderboard.png:2959:image/png
@@ -35,7 +37,7 @@ i:like.png:5912:image/png
 i:loading-bar1.png:2117:image/png
 i:Logo.png:16722:image/png
 i:medium.png:1818:image/png
-i:next.png:5398:image/png
+i:next.png:2471:image/png
 i:ok.png:44595:image/png
 i:rec.png:233:image/png
 i:rec_d.png:231:image/png
@@ -47,7 +49,7 @@ i:unknown.png:2538:image/png
 i:up_arrow.png:1889:image/png
 d:view:0:application/unknown
 b:view/Core.raw:2878:application/unknown
-b:view/ShuDuMain.raw:2822:application/unknown
+b:view/ShuDuMain.raw:3644:application/unknown
 i:white.png:292:image/png
 i:white1.png:299:image/png
 t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:770:application/unknown
