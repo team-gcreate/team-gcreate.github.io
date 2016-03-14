@@ -253,6 +253,24 @@ bodyList: [
 			}
 		]
 	}
+	{
+		def: {
+			name: B_LEADERBOARD
+			position_x: -11.809991
+			position_y: 12.942102
+			type: MyStaticBody
+			texture: leaderboard
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 1
+				halfHeight: 1
+			}
+		]
+	}
 ]
 jointList: []
 }

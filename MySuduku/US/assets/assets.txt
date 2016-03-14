@@ -49,7 +49,8 @@ i:unknown.png:2538:image/png
 i:up_arrow.png:1889:image/png
 d:view:0:application/unknown
 b:view/Core.raw:2878:application/unknown
-b:view/ShuDuMain.raw:3644:application/unknown
+b:view/LeadBoard.raw:2370:application/unknown
+b:view/ShuDuMain.raw:3914:application/unknown
 i:white.png:292:image/png
 i:white1.png:299:image/png
 t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:770:application/unknown
