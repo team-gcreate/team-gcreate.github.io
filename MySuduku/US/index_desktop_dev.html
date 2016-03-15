@@ -6,7 +6,8 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 <script src="soundmanager2-setup.js"></script>
 <script src="soundmanager2-jsmin.js"></script>
-<script src="//ads.lfstmedia.com/getad?site=271066" type="text/javascript"></script>
+<script src="//ads.lfstmedia.com/getad?site=271066"
+	type="text/javascript"></script>
 <style>
 #header {
 	background-color: white;
@@ -17,6 +18,7 @@
 	padding: 10px;
 	border: 0px solid #F00
 }
+
 #left {
 	background-color: white;
 	height: 600px;
@@ -24,12 +26,14 @@
 	padding: 0px;
 	border: 0px solid #F00
 }
+
 #embed-html {
 	width: 600px;
 	height: 600px;
 	padding: 0px;
 	border: 0px solid #F00
 }
+
 #fb-root {
 	height: 100px;
 	width: 900px;
@@ -40,6 +44,7 @@
 	padding: 0px;
 	border: 0px solid #F00
 }
+
 #stuff_bottom {
 	background-color: white;
 	height: 728px;
@@ -58,7 +63,7 @@
 			        LSM_Slot({
 			            adkey: '85c',
 			            ad_size: '728x90',
-			            slot: 'slot132407'
+			            slot: 'slot132407.DEV'
 			        });
 			    //]]>
 			</script>
@@ -73,7 +78,7 @@
 				        LSM_Slot({
 				            adkey: '36c',
 				            ad_size: '160x600',
-				            slot: 'slot132537'
+				            slot: 'slot132537.DEV'
 				        });
 				    //]]>
 				</script>
@@ -86,8 +91,8 @@
 		</tr>
 		<script type="text/javascript" src="html/html.nocache.js"></script>
 	</table>
-	
-	
+
+
 	<script type="text/javascript">
 	    adroll_adv_id = "KQ6ITNL2ZZBU7JUMMYS7XE";
 	    adroll_pix_id = "P33VESRZ4RCGRJU37ZXZIM";
@@ -117,29 +122,28 @@
 
 	<tr>
 		<td>
-		<div id="foot.todo">
-			<!--/* Ad4Game Javascript Tag */-->
-		
+			<div id="foot.todo">
+				<!--/* Ad4Game Javascript Tag */-->
 		</td>
 	</tr>
 	<tr>
 		<td>
-		<div id="fb-root">
-			<script src="fb_sdk.js"></script>
-			<script src="social.js"></script>
-		</div>
+			<div id="fb-root">
+				<script src="fb_sdk.js"></script>
+				<script src="social.js"></script>
+			</div>
 		</td>
-	</tr>	
+	</tr>
 	<tr>
 		<td>
-		<div id="stuff_bottom">
-			<!--
+			<div id="stuff_bottom">
+				<!--
 		<script type='text/javascript' src='//clksite.com/adServe/banners?tid=110984_185671_3&type=footer&size=728x90'></script>	
 		-->
-		</div>
+			</div>
 		</td>
-	</tr>	
-	
+	</tr>
+
 </table>
 
 <script>
@@ -153,8 +157,13 @@
                 evt.stopPropagation();
                 evt.target.style.cursor = '';
               }
+              function disableKeyDown(event){
+                    event.preventDefault();
+              }
+            
               document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
               document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
+              document.getElementsByTagName('body')[0].addEventListener('keydown', disableKeyDown, false);
               
 </script>
 </html>

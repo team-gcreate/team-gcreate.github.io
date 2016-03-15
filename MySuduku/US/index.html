@@ -6,7 +6,8 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 <script src="soundmanager2-setup.js"></script>
 <script src="soundmanager2-jsmin.js"></script>
-<script src="//ads.lfstmedia.com/getad?site=271066" type="text/javascript"></script>
+<script src="//ads.lfstmedia.com/getad?site=271066"
+	type="text/javascript"></script>
 <style>
 #header {
 	background-color: white;
@@ -17,6 +18,7 @@
 	padding: 10px;
 	border: 0px solid #F00
 }
+
 #left {
 	background-color: white;
 	height: 600px;
@@ -24,12 +26,14 @@
 	padding: 0px;
 	border: 0px solid #F00
 }
+
 #embed-html {
 	width: 600px;
 	height: 600px;
 	padding: 0px;
 	border: 0px solid #F00
 }
+
 #fb-root {
 	height: 100px;
 	width: 900px;
@@ -40,6 +44,7 @@
 	padding: 0px;
 	border: 0px solid #F00
 }
+
 #stuff_bottom {
 	background-color: white;
 	height: 200px;
@@ -86,8 +91,8 @@
 		</tr>
 		<script type="text/javascript" src="html/html.nocache.js"></script>
 	</table>
-	
-	
+
+
 	<script type="text/javascript">
 	    adroll_adv_id = "KQ6ITNL2ZZBU7JUMMYS7XE";
 	    adroll_pix_id = "P33VESRZ4RCGRJU37ZXZIM";
@@ -117,35 +122,34 @@
 
 	<tr>
 		<td>
-		<div id="foot.todo">
-			<!--/* Ad4Game Javascript Tag */-->
-		
+			<div id="foot.todo">
+				<!--/* Ad4Game Javascript Tag */-->
 		</td>
 	</tr>
 	<tr>
 		<td>
-		<div id="fb-root">
-			<script src="fb_sdk.js"></script>
-			<script src="social.js"></script>
-		</div>
+			<div id="fb-root">
+				<script src="fb_sdk.js"></script>
+				<script src="social.js"></script>
+			</div>
 		</td>
-	</tr>	
+	</tr>
 	<tr>
 		<td>
-		<div id="stuff_bottom">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- Bottom_728_90 -->
-		<ins class="adsbygoogle"
-		     style="display:inline-block;width:728px;height:90px"
-		     data-ad-client="ca-pub-8676213193773845"
-		     data-ad-slot="1156657213"></ins>
-		<script>
+			<div id="stuff_bottom">
+				<script async
+					src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				<!-- Bottom_728_90 -->
+				<ins class="adsbygoogle"
+					style="display: inline-block; width: 728px; height: 90px"
+					data-ad-client="ca-pub-8676213193773845" data-ad-slot="1156657213"></ins>
+				<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-		</div>
+			</div>
 		</td>
-	</tr>	
-	
+	</tr>
+
 </table>
 
 <script>
@@ -159,8 +163,13 @@
                 evt.stopPropagation();
                 evt.target.style.cursor = '';
               }
+              function disableKeyDown(event){
+                    event.preventDefault();
+              }
+            
               document.getElementById('embed-html').addEventListener('mousedown', handleMouseDown, false);
               document.getElementById('embed-html').addEventListener('mouseup', handleMouseUp, false);
+              document.getElementsByTagName('body')[0].addEventListener('keydown', disableKeyDown, false);
               
 </script>
 </html>
