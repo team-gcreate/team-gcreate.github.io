@@ -204,6 +204,12 @@ regionMetaList: [
 		frameRows: 1
 		frameColumns: 1
 	}
+	{
+		id: bg
+		fileName: bg.png
+		frameRows: 1
+		frameColumns: 1
+	}
 ]
 fontMetaList: []
 particleMetaList: []
