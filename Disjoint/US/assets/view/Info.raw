@@ -1,0 +1,92 @@
+{
+base: {
+	gravity: {
+		y: -9.8
+	}
+	devicesWidth: 1920
+	devicesHeight: 1920
+	viewpointWidth: 30
+	position: {
+		y: -5
+	}
+}
+bodyList: [
+	{
+		def: {
+			name: B143236410884711
+			position_x: 0.094955504
+			position_y: -3.7183347
+			type: MyStaticBody
+			texture: bg
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 13.6731615
+				halfHeight: 9.456523
+			}
+		]
+	}
+	{
+		def: {
+			name: B1432364108847
+			position_x: -11.369373
+			position_y: 3.0990953
+			type: MyStaticBody
+			texture: game_icon
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 1.3215344
+				halfHeight: 1.3687305
+			}
+		]
+	}
+	{
+		def: {
+			name: B_OK
+			position_x: 7.675858
+			position_y: -11.546688
+			type: MyStaticBody
+			texture: rec
+			fontColor: {
+				r: 0.2
+				g: 1
+				b: 1
+			}
+			textAlign: Align_center
+			text: OK
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 4.3902445
+				halfHeight: 0.97826064
+			}
+		]
+	}
+	{
+		def: {
+			name: T_HELP
+			position_x: -0.10295004
+			position_y: -3.6821032
+			type: MyStaticBody
+			fontColor: {
+				r: 1
+				g: 1
+				b: 1
+			}
+			text: .
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 12.65244
+				halfHeight: 4.4202895
+			}
+		]
+	}
+]
+jointList: []
+}

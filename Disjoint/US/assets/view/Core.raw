@@ -1,0 +1,404 @@
+{
+base: {
+	gravity: {
+		y: -9.8
+	}
+	devicesWidth: 1920
+	devicesHeight: 1920
+	viewpointWidth: 1080
+	map: ""
+	position: {}
+}
+bodyList: [
+	{
+		def: {
+			name: B_START
+			position_x: -7.039032
+			position_y: -1031.4653
+			type: MyStaticBody
+			texture: rec
+			fontId: ""
+			fontColor: {
+				r: 1
+				g: 1
+				b: 1
+			}
+			textAlign: Align_center
+			text: Play
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				pos: {}
+				texture: ""
+				halfWidth: 400
+				halfHeight: 70
+			}
+		]
+	}
+	{
+		def: {
+			name: B_ABOUT
+			position_x: -393.50775
+			position_y: -1294.676
+			type: MyStaticBody
+			texture: rec
+			fontId: ""
+			fontColor: {
+				r: 1
+				g: 1
+				b: 1
+			}
+			textAlign: Align_center
+			text: About
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				pos: {}
+				halfWidth: 111.02218
+				halfHeight: 39.49951
+			}
+		]
+	}
+	{
+		def: {
+			name: B_ENGLISH
+			position_x: -216.00067
+			position_y: -1181.4133
+			type: MyStaticBody
+			texture: rec
+			fontColor: {
+				g: 1
+			}
+			textAlign: Align_center
+			text: English
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 195.65211
+				halfHeight: 40
+			}
+		]
+	}
+	{
+		def: {
+			name: B_CHINESE
+			position_x: 184.43413
+			position_y: -1181.4133
+			type: MyStaticBody
+			texture: rec
+			fontColor: {
+				g: 1
+			}
+			textAlign: Align_center
+			text: 简体中文
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 194.34776
+				halfHeight: 40
+			}
+		]
+	}
+	{
+		def: {
+			name: B_BOARD
+			position_x: 247.14848
+			position_y: -1290.8037
+			type: MyStaticBody
+			texture: rec
+			fontId: ""
+			fontColor: {
+				r: 1
+				g: 1
+				b: 1
+			}
+			textAlign: Align_center
+			text: Leaderboard
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				pos: {}
+				halfWidth: 121.39722
+				halfHeight: 38.184265
+			}
+		]
+	}
+	{
+		def: {
+			name: B_L1
+			angle: -0.2304636
+			position_x: 838.2048
+			position_y: 156.13203
+			type: MyStaticBody
+			texture: easy
+			textAlign: Align_center
+			text: Easy
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 250
+				halfHeight: 30
+			}
+		]
+	}
+	{
+		def: {
+			name: B_L2
+			position_x: 837.1992
+			position_y: 16.005585
+			type: MyStaticBody
+			texture: medium
+			textAlign: Align_center
+			text: Medium
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 250
+				halfHeight: 30
+			}
+		]
+	}
+	{
+		def: {
+			name: B_L3
+			position_x: 837.1992
+			position_y: -124.120834
+			type: MyStaticBody
+			texture: hard
+			textAlign: Align_center
+			text: Hard
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 250
+				halfHeight: 30
+			}
+		]
+	}
+	{
+		def: {
+			name: L_1
+			position_x: -313.58408
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 1
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+	{
+		def: {
+			name: L_2
+			position_x: -257.82315
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 2
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+	{
+		def: {
+			name: L_4
+			position_x: -146.30128
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 4
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+	{
+		def: {
+			name: L_3
+			position_x: -202.06216
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 3
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+	{
+		def: {
+			name: L_8
+			position_x: 76.74242
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 8
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+	{
+		def: {
+			name: L_7
+			position_x: 20.981483
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 7
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+	{
+		def: {
+			name: L_6
+			position_x: -34.779434
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 6
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+	{
+		def: {
+			name: L_5
+			position_x: -90.54036
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 5
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+	{
+		def: {
+			name: L_10
+			position_x: 188.26427
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 10
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+	{
+		def: {
+			name: L_9
+			position_x: 132.50334
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 9
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+	{
+		def: {
+			name: L_12
+			position_x: 299.78607
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 12
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+	{
+		def: {
+			name: L_11
+			position_x: 244.02519
+			position_y: -475.26273
+			type: MyStaticBody
+			texture: ""
+			textAlign: Align_center
+			text: 11
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 23.603073
+				halfHeight: 20.780365
+			}
+		]
+	}
+]
+jointList: []
+}
