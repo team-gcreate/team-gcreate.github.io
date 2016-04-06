@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Funny Game Club</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Funny game of GCreate</h1>
+        <p>Funny game of GCreate</p>
+        
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- left -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-8676213193773845"
+     data-ad-slot="3549133219"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+      </header>
+      
+      <section>
+        <h3>
+<a id="math_calculate_game" class="anchor"  aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Math Calculate Game.</h3>
+
+<p>With four numbers to calculate, each number can only be used once, you can use the addition subtraction multiplication division the four operations, results for the special number (10--30).LeaderBoard is avaliable. :).</p>
+<a href="https://apps.facebook.com/math_calculate_game/"
+			target="_blank"> <img
+			src="https://scontent-tpe1-1.xx.fbcdn.net/hphotos-xtp1/t39.2081-0/p128x128/12057016_1634824136790789_1002086271_n.png"
+			alt="desc" />
+</a>
+<BR><BR>
+	
+<h3>
+<a id="math_division" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Math Division Game</h3>
+<p>Try complete vertical division of mathematics, make your brain more flexible and healthy, come to challenge it..</p>
+<a href="https://apps.facebook.com/math_division/"
+	target="_blank"> <img
+	src="https://scontent-tpe1-1.xx.fbcdn.net/hphotos-xal1/t39.2081-0/p128x128/12350954_1491846034455000_751990559_n.png"
+	alt="desc" />
+</a>
+<BR><BR>
+
+<h3>
+<a id="math_sudoku" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Math Sudoku Game</h3>
+<p>Classic sudoku game,make your brain more flexible and healthy, come to challenge it..</p>
+<a href="https://apps.facebook.com/math_sudoku/" target="_blank">
+	<img
+	src="https://scontent-tpe1-1.xx.fbcdn.net/hphotos-xft1/t39.2081-0/p128x128/12809164_543319429163016_65642982_n.png"
+	alt="desc" />
+</a>
+<BR><BR>
+
+
+    
+</body>
+</html>
