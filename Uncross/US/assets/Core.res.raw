@@ -66,6 +66,18 @@ regionMetaList: [
 		frameRows: 1
 		frameColumns: 1
 	}
+	{
+		id: leaderboard
+		fileName: leaderboard.png
+		frameRows: 1
+		frameColumns: 1
+	}
+	{
+		id: fb_share
+		fileName: fb_share.png
+		frameRows: 1
+		frameColumns: 1
+	}
 ]
 fontMetaList: []
 particleMetaList: []

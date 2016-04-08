@@ -2,9 +2,10 @@ d:assets:0:application/unknown
 b:.DS_Store:6148:application/unknown
 i:circle.png:12227:image/png
 i:circle_h.png:10848:image/png
-b:Core.res.raw:860:application/unknown
+b:Core.res.raw:1024:application/unknown
 t:defaultFont.fnt:11535:application/unknown
 i:defaultFont.png:35866:image/png
+i:fb_share.png:6982:image/png
 d:font1:0:application/unknown
 t:font1/an.fnt:11644:application/unknown
 i:font1/an.png:28361:image/png
@@ -13,6 +14,7 @@ i:font1/an2.png:18941:image/png
 i:gcreate.png:4733:image/png
 i:help.png:5517:image/png
 i:home.png:5881:image/png
+i:leaderboard.png:2959:image/png
 i:loading-bar1.png:2117:image/png
 i:next.png:6618:image/png
 i:next_d.png:1915:image/png
@@ -27,7 +29,7 @@ b:view/Core.raw:2065:application/unknown
 b:view/Info.raw:1235:application/unknown
 b:view/LeadBoard.raw:2370:application/unknown
 b:view/Level.raw:592:application/unknown
-b:view/NavBar.raw:2102:application/unknown
+b:view/NavBar.raw:2636:application/unknown
 b:view/UncrossMain.raw:142:application/unknown
 t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:770:application/unknown
 t:com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl:2886:application/unknown

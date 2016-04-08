@@ -132,10 +132,46 @@ bodyList: [
 	{
 		def: {
 			name: B_HOME
-			position_x: 25.122997
+			position_x: -80.284836
 			position_y: 469.66357
 			type: MyStaticBody
 			texture: home
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 50
+				halfHeight: 50
+			}
+		]
+	}
+	{
+		def: {
+			name: B_LEADERBOARD
+			position_x: 26.71257
+			position_y: 469.66357
+			type: MyStaticBody
+			texture: leaderboard
+			textAlign: Align_center
+			text: ""
+		}
+		shapeList: [
+			{
+				class: MyRectangleShape
+				halfWidth: 50
+				halfHeight: 50
+			}
+		]
+	}
+	{
+		def: {
+			name: B_SHARE
+			position_x: -187.28224
+			position_y: 469.66357
+			type: MyStaticBody
+			texture: fb_share
 			textAlign: Align_center
 			text: ""
 		}
